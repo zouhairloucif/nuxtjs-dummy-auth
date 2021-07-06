@@ -11,6 +11,8 @@
             <template #button-content>
               <em>{{userFullName}}</em>
             </template>
+            <b-dropdown-item :to="{name: 'index'}" active-class="info" :active="$route.name === 'index'">Accueil</b-dropdown-item>
+            <b-dropdown-item :to="{name: 'charts'}" active-class="info" :active="$route.name === 'charts'">Charts</b-dropdown-item>
             <b-dropdown-item href="#" @click="Logout">Se Déconnecter</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>

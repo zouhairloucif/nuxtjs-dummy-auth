@@ -30,6 +30,8 @@ export default {
   plugins: [
     {src: "~/plugins/vmask.js", client: true},
     {src: "~/plugins/toast.js", client: true},
+    {src: "~/plugins/vuex-persist.js", client: true},
+    {src: "~/plugins/apexchart.js", client: true},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
